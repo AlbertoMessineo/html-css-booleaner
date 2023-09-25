@@ -9,8 +9,9 @@ header {
 }
 
 .titolino {
-    
-    height: 35px ;
+    display: flex;
+    justify-content: flex-end;
+    height: 45px ;
 
 }
 
@@ -26,7 +27,16 @@ header {
 
 }
 
+.descrizione {
+    font-size: 12px;
+}
+
+.Evidenziato {
+    background-color: rgb(245, 241, 5);
+}
+
 h5{
     color: rgb(151, 151, 151); 
+    font-size: 1em;
     
 }
