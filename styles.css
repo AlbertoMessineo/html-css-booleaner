@@ -32,9 +32,10 @@ header {
 }
 
 table {
+    width: 80% ;
     border-collapse: collapse;  /*RIMOZIONE BORDI TABELLA*/
 }
-/*  NON RIESCO A SPAZIARE LA TABELLA CORRETTAMENTE*/
+
 td {
     padding: 1 0.5;
 
