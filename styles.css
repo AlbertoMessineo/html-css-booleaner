@@ -10,7 +10,7 @@ header {
 
 .titolino {
     display: flex;
-    justify-content: flex-end;
+   align-items:  end;
     height: 45px ;
 
 }
@@ -31,6 +31,25 @@ header {
     font-size: 12px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 1 0.5;
+
+}
+
+.linea1{
+    background-color: rgb(15, 130, 197);
+    color: aliceblue;
+}
+
+.linea-blu {
+    background-color: rgb(103, 182, 228);
+}
+
+
 .Evidenziato {
     background-color: rgb(245, 241, 5);
 }
@@ -39,4 +58,19 @@ h5{
     color: rgb(151, 151, 151); 
     font-size: 1em;
     
+}
+
+.immagine1{
+    width: 250px ;
+    height: 250px ;
+    background: url('/img/graph.jpg');
+    color: white;
+    font-size:  25px ;
+}
+.immagine2{
+    width: 250px ;
+    height: 250px ;
+    background: url('/img/monitor.jpg');
+    color: white;
+    font-size:  25px ;
 }
