@@ -7,10 +7,10 @@ header {
     background: url('/img/pattern.png') repeat rgb(21, 164, 247);
     background-repeat: repeat;
 }
-
-.titolino {
+ 
+.titolino {                 /*TITOLO 'THE BOOLEANER' DA AGGIUSTARE*/
     display: flex;
-   align-items:  end;
+    align-items:  end;
     height: 45px ;
 
 }
@@ -32,9 +32,9 @@ header {
 }
 
 table {
-    border-collapse: collapse;
+    border-collapse: collapse;  /*RIMOZIONE BORDI TABELLA*/
 }
-
+/*  NON RIESCO A SPAZIARE LA TABELLA CORRETTAMENTE*/
 td {
     padding: 1 0.5;
 
